@@ -1,0 +1,89 @@
+body{
+    background-image: url('Images/places_bg.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;  
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  #dams, #mosques, #architecture, #lakes, #rivers, #deserts, #mountains{
+    padding-top: 70px;
+  }
+  .card-deck{
+    width: 70%;
+    margin: auto;
+  }
+
+  .card img{
+    border-radius: 20px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px rgb(149, 160, 149));
+  }
+  .card{
+    border: none;
+    z-index: 0;
+    background-color: inherit;
+    height: 300px;
+  }
+  .options{
+    margin: auto;
+  }
+  .nav-item{
+    padding: 0 30px;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  .navbar-brand{
+    width: 15%;
+  }
+  .navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+ 
+  h1{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .toph{
+    top: 100px;
+  }
+  .topc{
+    margin-top:100px;
+    margin: auto;
+  }
+ 
+ 
+  .head{
+    position: absolute;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .container {
+    overflow: hidden;
+  }
+ 
+ 
+
+
+  /* footer */
+
+
+  
+  .footer{
+    margin: auto;
+    position: relative;
+    top: 80px;
+  }
+  
